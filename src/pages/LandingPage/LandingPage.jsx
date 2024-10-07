@@ -87,12 +87,12 @@ function LandingPage() {
 			<Toaster position="bottom-right" reverseOrder={false} />
 			<NavBar data={dropdownData} logo={true} search={true} feedback={true} />
 
-			<div className={styles.landingPageSearchWrapper}>
+			{/* <div className={styles.landingPageSearchWrapper}>
 				<SearchBar
 					placeholder="Search a album of your choice"
 					data={dropdownData}
 				/>
-			</div>
+			</div> */}
 
 			<HeroSection />
 			<div className={styles.sectionWrapper}>

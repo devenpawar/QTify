@@ -8,9 +8,7 @@ function App() {
 		<div className="App">
 			<Routes>
 				<Route path="/" element={<LandingPage />} />
-
 				<Route path="/album/:slug" element={<AlbumDetails />} />
-
 				<Route path="*" element={<LandingPage />} />
 			</Routes>
 		</div>
